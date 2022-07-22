@@ -13,7 +13,7 @@ public class Assert_googlepage_title {
   public void assertgoogletitle() {
  WebDriver driver ;
 		
-	 	   System.setProperty("Webdriver.chrome.driver","c:\\programfiles.chromedriver.exe.");
+	 	   System.setProperty("Webdriver.chrome.driver","c:\\programfiles\\chromedriver.exe");
 	   	// creating a driver and give a path
 	 	  driver=new ChromeDriver();
 	 			  
