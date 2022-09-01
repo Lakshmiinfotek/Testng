@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class Multilogins_Attempts {
 	 WebDriver driver;
-  @Test
+  @Test(dataProvider = "dp")
   public void checking(String userName, String passWord, String msg) throws InterruptedException {
       System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
       // create object name driver of type ChromeDriver
